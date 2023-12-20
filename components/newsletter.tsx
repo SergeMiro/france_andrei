@@ -37,13 +37,14 @@ export default function Newsletter() {
             </div>
 
 
-            <div className="relative flex flex-col lg:flex-row justify-center items-center">
-						<div className="w-1/2">
+            <div className="flex flex-row lg:flex-row justify-center items-center">
+						<div className="flex flex-row flex-nowrap w-1/2">
 							<h3 className="h3 text-white mb-2">Подать заявку можно здесь</h3>
+							<img className="sm:w-24" src="/images/icon_contract.png" alt="contract document" />
 						</div>
 						<div className="w-1/2">
 							<div className="flex flex-col sm:flex-row justify-end max-w-xs mx-auto sm:max-w-md lg:mx-0">
-								<a className="btn text-white bg-purple-700 hover:bg-purple-500 shadow rounded-3xl w-2/5" href="#0">Подать</a>
+								<a className="btn text-white bg-purple-700 hover:bg-purple-500 shadow rounded-3xl w-2/5" href="mailto:contact@france-experience.fr?subject=Заявка&body=%0AВаше%20имя:%0A%0AВаша%20фамилия:%0A%0AСтрана%20проживания:%0A%0AГород%20проживания:%0A%0AОпишите%20ваш%20запрос:%0A%0A">Подать</a>
 							</div>
 						</div>
             </div>
