@@ -28,27 +28,30 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto  pb-12 md:pb-16">
             <h2 className="h2 mb-4 text-center pb-2">Почему нам можно доверять🌟</h2>
-				
-					<div className='flex flex-row flex-nowrap items-center justify-center'>
-						<img className='w-10' src="/images/0.png" alt="icon_0"/>
-						<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">Мы официально зарегистрированы во Франции более 10 лет и работаем по договору</p>
-					</div>
-					<div className='flex flex-row flex-nowrap items-center justify-center'>
-						<img className='w-10' src="/images/0.png" alt="icon_0" />
-						<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">Наша компания - это команда профессионалов, которая находится на связи и помогает преодолеть все возникающие преграды</p>
-					</div>
-					<div className='flex flex-row flex-nowrap items-center justify-center'>
-						<img className='w-10' src="/images/0.png" alt="icon_0" />
-						<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">Нашими партнерами являются известные организации, например Альянс Франсез, а также крупные компании по трудоустройству за рубежом</p>
-					</div>
-					<div className='flex flex-row flex-nowrap items-center justify-center'>
-						<img className='w-10' src="/images/0.png" alt="icon_0" />
-						<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">Мы работаем с лучшими проверенными работодателями в разных регионах Франции</p>
-					</div>
-
-
-				
-           
+				<div className='flex flex-row flex-nowrap items-center justify-center'>
+					<img className='w-10 mr-2 transition-transform ease-in-out duration-300 transform hover:scale-75' src="/images/0.png" alt="icon_0"/>
+					<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">
+						Мы официально зарегистрированы во Франции более 10 лет и работаем по договору
+					</p>
+				</div>
+				<div className='flex flex-row flex-nowrap items-center justify-center'>
+					<img className='w-10 mr-2 transition-transform ease-in-out duration-300 transform hover:scale-75' src="/images/0.png" alt="icon_0" />
+					<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">
+						Наша компания - это команда профессионалов, которая находится на связи и помогает преодолеть все возникающие преграды
+					</p>
+				</div>
+				<div className='flex flex-row flex-nowrap items-center justify-center'>
+					<img className='w-10 mr-2 transition-transform ease-in-out duration-300 transform hover:scale-75' src="/images/0.png" alt="icon_0" />
+					<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">
+						Нашими партнерами являются известные организации, например Альянс Франсез, а также крупные компании по трудоустройству за рубежом
+					</p>
+				</div>
+				<div className='flex flex-row flex-nowrap items-center justify-center'>
+					<img className='w-10 mr-2 transition-transform ease-in-out duration-300 transform hover:scale-75' src="/images/0.png" alt="icon_0" />
+					<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">
+						Мы работаем с лучшими проверенными работодателями в разных регионах Франции
+					</p>
+				</div>
           </div>
 
           {/* Items */}
