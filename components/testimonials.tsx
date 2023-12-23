@@ -70,10 +70,11 @@ export default function Testimonials() {
                   </svg>
                   <Image className="relative rounded-full" src={AvatarImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
-                <p className="text-lg text-center mb-4">
-                  “Ну вот я и вернулась.Впечатлений масса,попробую поделиться.Стажировку проходила в кемпинге 5*рядом с Перпиньяном. Работала официанткой в ресторане кемпинга. Кемпинг-это как наша турбаза,только класса люкс, с бассейнами, водными горками, рестораном, баром, анимацией."
-                </p>
-                <cite className="block font-bold text-lg not-italic mb-1">Юлия</cite>
+                <span className="text-lg text-center mb-4">
+                  “Ну вот я и вернулась.Впечатлений масса,попробую поделиться.Стажировку проходила в кемпинге 5*рядом с Перпиньяном. Работала официанткой в ресторане кемпинга. Кемпинг-это как наша турбаза,только класса люкс, с бассейнами, водными горками, рестораном, баром, анимацией..."
+                </span>
+					 <a href="https://vk.com/topic-92692367_34307956" target="_blank" className='text-purple-300 hover:text-purple-500 cursor-pointer anim'> ... читать далее</a>
+                <cite className="block font-bold text-lg not-italic mt-3 mb-1">Юлия</cite>
                 <div className="text-gray-600">
                   <span className='italic'>г. Воронеж</span> 
 						{/* <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a> */}
@@ -91,10 +92,11 @@ export default function Testimonials() {
                   </svg>
                   <Image className="relative rounded-full" src={AvatarImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
-                <p className="text-lg text-center mb-4">
-                  “Была на стажировке с конца декабря по март в отеле 4* в Куршевеле. В отеле было ещё трое русских стажеров,поэтому у нас сразу создалась своя комманда поддержки)) .Я работала в ресторане на завтраках и ужинах. Днём было свободное время, удалось покататься на горных лыжах,это был мой первый опыт и я рада,что обошлось без гипса,так как по жизни я не особо спортсменка.“
-                </p>
-                <cite className="block font-bold text-lg not-italic mb-1">Настя</cite>
+                <span className="text-lg text-center mb-4">
+                  “Была на стажировке с конца декабря по март в отеле 4* в Куршевеле. В отеле было ещё трое русских стажеров,поэтому у нас сразу создалась своя комманда поддержки)) .Я работала в ресторане на завтраках и ужинах. Днём было свободное время, удалось покататься на горных лыжах,это был мой первый опыт...“
+                </span>
+					 <a href="https://vk.com/topic-92692367_34307956" target="_blank" className='text-purple-300 hover:text-purple-500 cursor-pointer anim'> ... читать далее</a>
+                <cite className="block font-bold text-lg not-italic mt-3 mb-1">Настя</cite>
                 <div className="text-gray-600">
                   <span className='italic'>г. Ростов</span> 
 						{/* <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a> */}
@@ -112,12 +114,13 @@ export default function Testimonials() {
                   </svg>
                   <Image className="relative rounded-full" src={AvatarImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
-                <p className="text-lg text-center mb-4">
-                  “Верочка, спасибо большое! Только вернулась,сижу и плачу,так хочется обратно! А ведь как я плакала в начале стажировки, весь коллектив меня утешал, теперь смешно это вспоминать. В общем ехала я вся такая из себя умница и красавица на стажировку на ресепшене в отеле 4* в городе Касси. Встретили меня в аэропорту Марселя представители France experience, отвезли в отель,познакомили с дирекцией, разместили в квартире недалеко от отеля с двумя другими стажерками.В общем я была довольна.“
-					 </p>
-                <cite className="block font-bold text-lg not-italic mb-1">Алёна</cite>
+                <span className="text-lg text-center mb-4">
+                  “Я  проходил стажировку поваром в ресторане отеля 5* в Бо де Прованс.Я работаю поваром в Петербурге,поэтому моей целью было получить опыт работу в хорошем французском ресторане,так как это большой плюс для карьеры.Получил интересный опыт,вся работа организована немного не так,как в моем ресторане...“
+					 </span>
+					 <a href="https://vk.com/topic-92692367_34307956" target="_blank" className='text-purple-300 hover:text-purple-500 cursor-pointer anim'> ... читать далее</a>
+                <cite className="block font-bold text-lg not-italic mt-3 mb-1">Денис</cite>
                 <div className="text-gray-600">
-                  <span className='italic'>г. Москва</span> 
+                  <span className='italic'>г. Санкт-Петербург</span>
 						{/* <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a> */}
                 </div>
               </div>
