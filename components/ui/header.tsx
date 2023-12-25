@@ -44,19 +44,19 @@ export default function Header() {
 						{/* Ваше содержимое Dropdown */}
 						<ul className='px-4'>
 							<li className='py-1'>
-								<Link href="/moving">Стажировка</Link>
+								<Link href="/services">Стажировка</Link>
 							</li>
 							<li className='py-1'>
-								<Link href="/internship">Переезд</Link>
+								<Link href="/services">Переезд</Link>
 							</li>
 							<li className='py-1'>
-								<Link href="/training">Обучение</Link>
+								<Link href="/services">Обучение</Link>
 							</li>
 							<li className='py-1'>
-								<Link href="/work">Работа</Link>
+								<Link href="/services">Работа</Link>
 							</li>
 							<li className='py-1'>
-								<Link href="/administrative">Административные вопросы</Link>
+								<Link href="/services">Административные вопросы</Link>
 							</li>
 						</ul>
 					</Dropdown>
