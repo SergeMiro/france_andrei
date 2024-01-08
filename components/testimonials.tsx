@@ -43,7 +43,7 @@ export default function Testimonials() {
 						<div className='flex flex-row flex-nowrap items-center justify-center'>
 							<img className='w-10 mr-2 transition-transform ease-in-out duration-300 transform hover:scale-75' src="/fonts/icon_o.png" alt="icon_0" />
 							<p className="text-xl text-gray-600 m-2" data-aos="zoom-y-out">
-								Нашими партнерами являются известные организации, например <a className='text-purple-600 hover:text-purple-400 anim' href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81_%D0%A4%D1%80%D0%B0%D0%BD%D1%81%D0%B5%D0%B7">Альянс Франсез</a>, а также крупные компании по трудоустройству за рубежом
+								Нашими партнерами являются известные организации, например <a className='text-purple-600 hover:text-purple-400 anim' href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81_%D0%A4%D1%80%D0%B0%D0%BD%D1%81%D0%B5%D0%B7" target="_blank">Альянс Франсез</a>, а также крупные компании по трудоустройству за рубежом
 							</p>
 						</div>
 						<div className='flex flex-row flex-nowrap items-center justify-center'>

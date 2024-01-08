@@ -5,7 +5,7 @@ export default function Proposal() {
 				<div>
 
 					{/* CTA box */}
-					<div className="relative bg-blue-500 rounded-xl py-10 px-8 md:py-16 md:px-12 my-6 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
+					<div className="relative bg-blue-500 rounded-xl py-10 px-8 md:py-14 md:px-8 my-6 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
 
 						{/* Background illustration */}
 						<div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" aria-hidden="true">
@@ -37,16 +37,18 @@ export default function Proposal() {
 						</div>
 
 
-						<div className="flex flex-row lg:flex-row justify-center items-center">
-							<div className="flex flex-row flex-nowrap w-1/2">
-								<h3 className="h3 text-white mb-2">Подать заявку можно здесь</h3>
-								<img className="sm:w-24" src="/images/icon_contract.png" alt="contract document" />
+						<div className="flex justify-center items-center">
+							<div className="sm:w-3/4 md:w-3/5 flex flex-row flex-nowrap items-center">
+								<img className="sm:w-18 sm:h-20 md:w-28 md:h-28 items-center" src="/images/icon_contract.png" alt="contract document" />
+								<p className="sm:text-3xl md:text-4xl text-white font-bold mb-2 sm:ml-4 md:ml-8">Подать заявку можно здесь</p>
 							</div>
-							<div className="w-1/2">
-								<div className="flex flex-col sm:flex-row justify-end max-w-xs mx-auto sm:max-w-md lg:mx-0">
-									<img className="w-16" src="/fonts/icon_email.png" alt="email" />
-									<a className="btn text-white bg-purple-700 hover:bg-purple-500 shadow rounded-3xl w-2/5" href="mailto:contact@france-experience.fr?subject=Заявка&body=%0AВаше%20имя:%0A%0AВаша%20фамилия:%0A%0AДата%20рождения:%0A%0AСтрана%20проживания:%0A%0AГород%20проживания:%0A%0AОпишите%20ваш%20запрос:%0A%0A">Подать</a>
-								</div>
+							<div className="sm:w-1/4 md:w-2/5 flex sm:flex-col md:flex-row justify-end items-end gap-4">
+									<a href="mailto:contact@france-experience.fr?subject=Заявка&body=%0AВаше%20имя:%0A%0AВаша%20фамилия:%0A%0AДата%20рождения:%0A%0AСтрана%20проживания:%0A%0AГород%20проживания:%0A%0AОпишите%20ваш%20запрос:%0A%0A" target="_blank">
+										<img className="sm:w-16 md:w-24 cursor-pointer hover:scale-110 anim" src="/fonts/icon_email.png" alt="email" />
+									</a>
+									<a href="https://t.me/FranceExperienceBot" target="_blank">
+										<img className="sm:w-16 md:w-24 cursor-pointer hover:scale-110 anim" src="/fonts/icon_telegram.png" alt="telegram" />
+									</a>
 							</div>
 						</div>
 

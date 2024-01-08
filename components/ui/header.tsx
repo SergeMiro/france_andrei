@@ -40,6 +40,9 @@ export default function Header() {
 								<Link href="/about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">О нас</Link>
 							</li>
 							<li>
+								<Link href="/services" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Наши услуги</Link>
+							</li>
+							<li className='hidden'>
 								<Dropdown title="Наши услуги">
 									{/* Ваше содержимое Dropdown */}
 									<ul className='px-4'>
@@ -60,7 +63,6 @@ export default function Header() {
 										</li>
 									</ul>
 								</Dropdown>
-
 							</li>
 							<li>
 								<Link href="/gallery" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Галерея</Link>
