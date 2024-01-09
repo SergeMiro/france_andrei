@@ -23,7 +23,7 @@ export default function Testimonials() {
 			</div>
 
 			<div className="max-w-6xl mx-auto px-4 sm:px-6">
-				<div className="py-12 md:py-20">
+				<div className="py-8">
 
 					{/* Section header */}
 					<div className="max-w-3xl mx-auto  pb-12 md:pb-16">

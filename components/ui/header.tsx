@@ -28,14 +28,14 @@ export default function Header() {
 				<div className="flex items-center justify-between h-16 md:h-20">
 
 					{/* Site branding */}
-					<div className="shrink-0 mr-4">
+					<div className="shrink-0">
 						<Logo />
 					</div>
 
 					{/* Desktop navigation */}
 					<nav className="hidden md:flex md:grow">
 						{/* Desktop sign in links */}
-						<ul className="flex grow justify-end flex-wrap items-center">
+						<ul className="flex grow justify-end flex-nowrap items-center">
 							<li>
 								<Link href="/about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">О нас</Link>
 							</li>
@@ -70,7 +70,7 @@ export default function Header() {
 							<li>
 								<Link href="/contacts" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Контакты</Link>
 							</li>
-							<li>
+							<li className='hidden'>
 								<Link href="/signup" className="btn-sm text-gray-100 bg-purple-800 rounded-3xl hover:bg-gray-600 ml-3">
 									<span>Регистрация</span>
 									<svg className="w-3 h-3 fill-current text-gray-100 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +78,7 @@ export default function Header() {
 									</svg>
 								</Link>
 							</li>
-							<li>
+							<li className='hidden'>
 								<Link href="/signin" className="btn-sm text-purple-800  rounded-3xl border-purple-800 hover:bg-purple-800 hover:text-gray-100 ml-3">Войти</Link>
 							</li>
 						</ul>

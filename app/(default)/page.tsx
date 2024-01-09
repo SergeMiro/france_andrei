@@ -9,17 +9,18 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
+import ClaimServices from '@/components/claim-services'
+import Contact from '@/components/contact';
 
 export default function Home() {
 	return (
 		<>
 			<Hero />
 			<Features />
-			<Newsletter />
+			<ClaimServices />
 			<Testimonials />
 			{/* <FeaturesBlocks /> */}
-
+			<Contact />
 		</>
 	)
 }
